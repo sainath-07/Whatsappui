@@ -1,0 +1,186 @@
+
+      /* body  */
+      body {
+        background-color: black;
+        margin-left: 40%;
+        /* margin: 2%; */
+      }
+
+      /* whatsapp bg image */
+      .whatsappbgimg {
+        background-image: url("good.png");
+        /* border-radius: 10px 10px 10px 10px; */
+        background-size: cover;
+        overflow: hidden scroll;
+        height: 89vh;
+        width: 22vw;
+        
+      }
+      
+      /* pseudo element to hide the scrollbar  */
+      .whatsappbgimg::-webkit-scrollbar {
+        display: none;  
+      }
+      
+      /* whatsapp header color  */
+      .greenbox p {
+        position: absolute;
+        bottom: 7%;
+        left: 28%;
+        width: 21%;
+        height: 44%;
+        text-align: center;
+        font-size: bold;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      .greenbox {
+        position: fixed;
+        z-index: 1;
+        background-color: #008069;
+        /* border-radius: 10px 10px 0px 0px; */
+        width: 22%;
+        height: 7%;
+      }
+      
+      /* icons of whatapp header  */
+      img[src^="right"] {
+        position: absolute;
+        top: 24%;
+        left: 3%;
+      }
+      img[src^="man"] {
+        position: relative;
+        top: 20%;
+        left: 12%;
+        height: 67%;
+        width: 12%;
+      }
+      img[src^="video"] {
+        position: relative;
+        top: 20%;
+        left: 51%;
+        height: 60%;
+        width: 8%;
+      }
+      img[src^="phone"] {
+        position: relative;
+        top: 11%;
+        left: 57%;
+        height: 47%;
+        width: 7%;
+      }
+      img[src^="dots"] {
+        position: relative;
+        top: 11%;
+        left: 60%;
+        height: 47%;
+        width: 7%;
+      }
+      
+      /* scrolling : text+message+images+stickers styling */
+
+      #sticky {
+        position: sticky;
+        top: 10%;
+        text-align: center;
+        background-color: #fefefe;
+        height: 10%;
+        width: 36%;
+        margin-left: 32%;
+        border-radius: 6px;
+      }
+      .date p:nth-child(even) {
+        background-color: #e7ffdb;
+        margin-left: 1%;
+        height: 100%;
+        width: 70%;
+        padding-left: 3%;
+        /* overflow: hidden scroll; */
+        border-radius: 0px 15px 11px 19px;
+      }
+      .date p:nth-child(odd) {
+        background-color: #e7ffdb;
+        /* overflow: hidden scroll; */
+        margin-left: 35%;
+        height: 100%;
+        width: 60%;
+        padding-left: 3%;
+        border-radius: 0px 12px 12px 12px;
+      }
+
+      .date {
+        padding-top: 8%;
+        margin-top: 5%;
+      }
+
+      img[title="imageleft"] {
+        margin-left: 2%;
+        height: 60%;
+        width: 60%;
+        border-radius: 2px;
+      }
+      img[title="imageright"] {
+        margin-left: 38%;
+        height: 60%;
+        width: 60%;
+        border-radius: 2px;
+      }
+      img[title="setemojiright"] {
+        position: relative;
+        left: 75%;
+      }
+      img[title="setemojileft"] {
+        position: relative;
+        left: 3%;
+      }
+
+      /* footer part : textbox+icons */
+
+      .textmessage {
+        position: fixed;
+        top: 84%;
+        background-image: url("good.png");
+        height: 6%;
+        width: 22%;
+        padding-bottom: 1px;
+      }
+
+      .whitetextbox {
+        position: fixed;
+        top: 84%;
+        background-color: #ffffff;
+        height: 6%;
+        width: 19%;
+        border-radius: 12px;
+      }
+      .textmessage > img {
+        position: relative;
+        left: 87%;
+        height: 96%;
+        width: 12%;
+      }
+      .whitetextbox > img {
+        position: absolute;
+        top: 20%;
+      }
+      img[src^="happy"] {
+        left: 4%;
+      }
+      #message {
+        position: absolute;
+        left: 22%;
+        font-family: "Poppins", sans-serif;
+        color: #6e777d;
+        font-size: 90%;
+      }
+      img[src^="attach"] {
+        left: 63%;
+      }
+      img[src^="rupee"] {
+        left: 75%;
+      }
+      img[src*="button"] {
+        left: 88%;
+      }
